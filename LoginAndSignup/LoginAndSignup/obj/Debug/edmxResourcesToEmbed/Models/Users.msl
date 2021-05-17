@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LoginAndSignupModelStoreContainer" CdmEntityContainer="LoginAndSignupEntities1">
+    <EntitySetMapping Name="UserData">
+      <EntityTypeMapping TypeName="LoginAndSignupModel.UserData">
+        <MappingFragment StoreEntitySet="UserData">
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SignIn">
+      <EntityTypeMapping TypeName="LoginAndSignupModel.SignIn">
+        <MappingFragment StoreEntitySet="SignIn">
+          <ScalarProperty Name="OTP" ColumnName="OTP" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

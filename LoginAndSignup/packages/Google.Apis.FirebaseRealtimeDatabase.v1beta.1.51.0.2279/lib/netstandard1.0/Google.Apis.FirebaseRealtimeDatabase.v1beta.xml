@@ -1,0 +1,521 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Google.Apis.FirebaseRealtimeDatabase.v1beta</name>
+    </assembly>
+    <members>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService">
+            <summary>The FirebaseRealtimeDatabase Service.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Version">
+            <summary>The API version.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.DiscoveryVersionUsed">
+            <summary>The discovery version used to generate this service.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.#ctor">
+            <summary>Constructs a new service.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.#ctor(Google.Apis.Services.BaseClientService.Initializer)">
+            <summary>Constructs a new service.</summary>
+            <param name="initializer">The service initializer.</param>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Features">
+            <summary>Gets the service supported features.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Name">
+            <summary>Gets the service name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.BaseUri">
+            <summary>Gets the service base URI.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.BasePath">
+            <summary>Gets the service base path.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.BatchUri">
+            <summary>Gets the batch base URI; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.BatchPath">
+            <summary>Gets the batch base path; <c>null</c> if unspecified.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Scope">
+            <summary>Available OAuth 2.0 scopes for use with the Firebase Realtime Database Management API.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Scope.CloudPlatform">
+            <summary>See, edit, configure, and delete your Google Cloud Platform data</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Scope.CloudPlatformReadOnly">
+            <summary>View your data across Google Cloud Platform services</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Scope.Firebase">
+            <summary>View and administer all your Firebase data and settings</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Scope.FirebaseReadonly">
+            <summary>View all your Firebase data and settings</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.ScopeConstants">
+            <summary>
+            Available OAuth 2.0 scope constants for use with the Firebase Realtime Database Management API.
+            </summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.ScopeConstants.CloudPlatform">
+            <summary>See, edit, configure, and delete your Google Cloud Platform data</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.ScopeConstants.CloudPlatformReadOnly">
+            <summary>View your data across Google Cloud Platform services</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.ScopeConstants.Firebase">
+            <summary>View and administer all your Firebase data and settings</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.ScopeConstants.FirebaseReadonly">
+            <summary>View all your Firebase data and settings</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseService.Projects">
+            <summary>Gets the Projects resource.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1">
+            <summary>A base abstract class for FirebaseRealtimeDatabase requests.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new FirebaseRealtimeDatabaseBaseServiceRequest instance.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.Xgafv">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.XgafvEnum">
+            <summary>V1 error format.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.XgafvEnum.Value1">
+            <summary>v1 error format</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.XgafvEnum.Value2">
+            <summary>v2 error format</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.AccessToken">
+            <summary>OAuth access token.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.Alt">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.AltEnum">
+            <summary>Data format for response.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.AltEnum.Json">
+            <summary>Responses with Content-Type of application/json</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.AltEnum.Media">
+            <summary>Media download with context-dependent Content-Type</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.AltEnum.Proto">
+            <summary>Responses with Content-Type of application/x-protobuf</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.Callback">
+            <summary>JSONP</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.Fields">
+            <summary>Selector specifying which fields to include in a partial response.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.Key">
+            <summary>
+            API key. Your API key identifies your project and provides you with API access, quota, and reports. Required
+            unless you provide an OAuth 2.0 token.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.OauthToken">
+            <summary>OAuth 2.0 token for the current user.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.PrettyPrint">
+            <summary>Returns response with indentations and line breaks.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.QuotaUser">
+            <summary>
+            Available to use for quota purposes for server-side applications. Can be any arbitrary string assigned to a
+            user, but should not exceed 40 characters.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.UploadType">
+            <summary>Legacy upload protocol for media (e.g. "media", "multipart").</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.UploadProtocol">
+            <summary>Upload protocol for media (e.g. "raw", "multipart").</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.FirebaseRealtimeDatabaseBaseServiceRequest`1.InitParameters">
+            <summary>Initializes FirebaseRealtimeDatabase parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource">
+            <summary>The "projects" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.Locations">
+            <summary>Gets the Locations resource.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource">
+            <summary>The "locations" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.Instances">
+            <summary>Gets the Instances resource.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource">
+            <summary>The "instances" collection of methods.</summary>
+        </member>
+        <member name="F:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.service">
+            <summary>The service which this resource belongs to.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.#ctor(Google.Apis.Services.IClientService)">
+            <summary>Constructs a new resource.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.Create(Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance,System.String)">
+            <summary>
+            Requests that a new DatabaseInstance be created. The state of a successfully created
+            DatabaseInstance is ACTIVE. Only available for projects on the Blaze plan. Projects can be upgraded
+            using the Cloud Billing API
+            https://cloud.google.com/billing/reference/rest/v1/projects/updateBillingInfo. Note that it might
+            take a few minutes for billing enablement state to propagate to Firebase systems.
+            </summary>
+            <param name="body">The body of the request.</param>
+            <param name="parent">
+            The parent project for which to create a database instance, in the form:
+            `projects/{project-number}/locations/{location-id}`.
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest">
+            <summary>
+            Requests that a new DatabaseInstance be created. The state of a successfully created
+            DatabaseInstance is ACTIVE. Only available for projects on the Blaze plan. Projects can be upgraded
+            using the Cloud Billing API
+            https://cloud.google.com/billing/reference/rest/v1/projects/updateBillingInfo. Note that it might
+            take a few minutes for billing enablement state to propagate to Firebase systems.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance,System.String)">
+            <summary>Constructs a new Create request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.Parent">
+            <summary>
+            The parent project for which to create a database instance, in the form:
+            `projects/{project-number}/locations/{location-id}`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.DatabaseId">
+            <summary>The globally unique identifier of the database instance.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.ValidateOnly">
+            <summary>When set to true, the request will be validated but not submitted.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.CreateRequest.InitParameters">
+            <summary>Initializes Create parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.Delete(System.String)">
+            <summary>
+            Marks a DatabaseInstance to be deleted. The DatabaseInstance will be purged within 30 days. The
+            default database cannot be deleted. IDs for deleted database instances may never be recovered or
+            re-used. The Database may only be deleted if it is already in a DISABLED state.
+            </summary>
+            <param name="name">
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest">
+            <summary>
+            Marks a DatabaseInstance to be deleted. The DatabaseInstance will be purged within 30 days. The
+            default database cannot be deleted. IDs for deleted database instances may never be recovered or
+            re-used. The Database may only be deleted if it is already in a DISABLED state.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Delete request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.Name">
+            <summary>
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DeleteRequest.InitParameters">
+            <summary>Initializes Delete parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.Disable(Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DisableDatabaseInstanceRequest,System.String)">
+            <summary>
+            Disables a DatabaseInstance. The database can be re-enabled later using ReenableDatabaseInstance.
+            When a database is disabled, all reads and writes are denied, including view access in the Firebase
+            console.
+            </summary>
+            <param name="body">The body of the request.</param>
+            <param name="name">
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest">
+            <summary>
+            Disables a DatabaseInstance. The database can be re-enabled later using ReenableDatabaseInstance.
+            When a database is disabled, all reads and writes are denied, including view access in the Firebase
+            console.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DisableDatabaseInstanceRequest,System.String)">
+            <summary>Constructs a new Disable request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.Name">
+            <summary>
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.DisableRequest.InitParameters">
+            <summary>Initializes Disable parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.Get(System.String)">
+            <summary>Gets the DatabaseInstance identified by the specified resource name.</summary>
+            <param name="name">
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`. `database-id` is a
+            globally unique identifier across all parent collections. For convenience, this method allows you to
+            supply `-` as a wildcard character in place of specific collections under `projects` and
+            `locations`. The resulting wildcarding form of the method is:
+            `projects/-/locations/-/instances/{database-id}`.
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest">
+            <summary>Gets the DatabaseInstance identified by the specified resource name.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new Get request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.Name">
+            <summary>
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`. `database-id` is a
+            globally unique identifier across all parent collections. For convenience, this method allows
+            you to supply `-` as a wildcard character in place of specific collections under `projects` and
+            `locations`. The resulting wildcarding form of the method is:
+            `projects/-/locations/-/instances/{database-id}`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.GetRequest.InitParameters">
+            <summary>Initializes Get parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.List(System.String)">
+            <summary>
+            Lists each DatabaseInstance associated with the specified parent project. The list items are
+            returned in no particular order, but will be a consistent view of the database instances when
+            additional requests are made with a `pageToken`. The resulting list contains instances in any STATE.
+            The list results may be stale by a few seconds. Use GetDatabaseInstance for consistent reads.
+            </summary>
+            <param name="parent">
+            The parent project for which to list database instances, in the form:
+            `projects/{project-number}/locations/{location-id}` To list across all locations, use a parent in
+            the form: `projects/{project-number}/locations/-`
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest">
+            <summary>
+            Lists each DatabaseInstance associated with the specified parent project. The list items are
+            returned in no particular order, but will be a consistent view of the database instances when
+            additional requests are made with a `pageToken`. The resulting list contains instances in any STATE.
+            The list results may be stale by a few seconds. Use GetDatabaseInstance for consistent reads.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.#ctor(Google.Apis.Services.IClientService,System.String)">
+            <summary>Constructs a new List request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.Parent">
+            <summary>
+            The parent project for which to list database instances, in the form:
+            `projects/{project-number}/locations/{location-id}` To list across all locations, use a parent
+            in the form: `projects/{project-number}/locations/-`
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.PageSize">
+            <summary>
+            The maximum number of database instances to return in the response. The server may return fewer
+            than this at its discretion. If no value is specified (or too large a value is specified), then
+            the server will impose its own limit.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.PageToken">
+            <summary>
+            Token returned from a previous call to `ListDatabaseInstances` indicating where in the set of
+            database instances to resume listing.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ListRequest.InitParameters">
+            <summary>Initializes List parameter list.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.Reenable(Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ReenableDatabaseInstanceRequest,System.String)">
+            <summary>
+            Enables a DatabaseInstance. The database must have been disabled previously using
+            DisableDatabaseInstance. The state of a successfully reenabled DatabaseInstance is ACTIVE.
+            </summary>
+            <param name="body">The body of the request.</param>
+            <param name="name">
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </param>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest">
+            <summary>
+            Enables a DatabaseInstance. The database must have been disabled previously using
+            DisableDatabaseInstance. The state of a successfully reenabled DatabaseInstance is ACTIVE.
+            </summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.#ctor(Google.Apis.Services.IClientService,Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ReenableDatabaseInstanceRequest,System.String)">
+            <summary>Constructs a new Reenable request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.Name">
+            <summary>
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.Body">
+            <summary>Gets or sets the body of this request.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.GetBody">
+            <summary>Returns the body of the request.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.MethodName">
+            <summary>Gets the method name.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.HttpMethod">
+            <summary>Gets the HTTP method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.RestPath">
+            <summary>Gets the REST path.</summary>
+        </member>
+        <member name="M:Google.Apis.FirebaseRealtimeDatabase.v1beta.ProjectsResource.LocationsResource.InstancesResource.ReenableRequest.InitParameters">
+            <summary>Initializes Reenable parameter list.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance">
+            <summary>
+            Representation of a Realtime Database instance. Details on interacting with contents of a DatabaseInstance can
+            be found at: https://firebase.google.com/docs/database/rest/start.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.DatabaseUrl">
+            <summary>Immutable. The globally unique hostname of the database.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.Name">
+            <summary>
+            The fully qualified resource name of the database instance, in the form:
+            `projects/{project-number}/locations/{location-id}/instances/{database-id}`. Currently the only supported
+            location is 'us-central1'.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.Project">
+            <summary>
+            The resource name of the project this instance belongs to. For example: `projects/{project-number}`.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.State">
+            <summary>The database's lifecycle state. Read-only.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.Type">
+            <summary>
+            The database instance type. On creation only USER_DATABASE is allowed, which is also the default when
+            omitted.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DatabaseInstance.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DisableDatabaseInstanceRequest">
+            <summary>The request sent to the DisableDatabaseInstance method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.DisableDatabaseInstanceRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ListDatabaseInstancesResponse">
+            <summary>The response from the ListDatabaseInstances method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ListDatabaseInstancesResponse.Instances">
+            <summary>List of each DatabaseInstance that is in the parent Firebase project.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ListDatabaseInstancesResponse.NextPageToken">
+            <summary>
+            If the result list is too large to fit in a single response, then a token is returned. If the string is
+            empty, then this response is the last page of results. This token can be used in a subsequent call to
+            `ListDatabaseInstances` to find the next group of database instances. Page tokens are short-lived and should
+            not be persisted.
+            </summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ListDatabaseInstancesResponse.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+        <member name="T:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ReenableDatabaseInstanceRequest">
+            <summary>The request sent to the ReenableDatabaseInstance method.</summary>
+        </member>
+        <member name="P:Google.Apis.FirebaseRealtimeDatabase.v1beta.Data.ReenableDatabaseInstanceRequest.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
+    </members>
+</doc>

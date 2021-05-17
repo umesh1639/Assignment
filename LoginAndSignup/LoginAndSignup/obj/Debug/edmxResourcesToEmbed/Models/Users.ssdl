@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LoginAndSignupModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2005" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SignIn">
+    <Key>
+      <PropertyRef Name="MobileNumber" />
+    </Key>
+    <Property Name="MobileNumber" Type="numeric" Precision="15" Scale="0" Nullable="false" />
+    <Property Name="OTP" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserData">
+    <Key>
+      <PropertyRef Name="MobileNumber" />
+    </Key>
+    <Property Name="MobileNumber" Type="numeric" Precision="15" Scale="0" Nullable="false" />
+    <Property Name="Name" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="LoginAndSignupModelStoreContainer">
+    <EntitySet Name="SignIn" EntityType="Self.SignIn" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserData" EntityType="Self.UserData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
